@@ -5,7 +5,7 @@ Creates and distributes an archive to your web servers
 import os
 from fabric.api import *
 
-env.hosts = ['54.237.52.200', '34.224.62.212']
+env.hosts = ['54.157.131.242', '100.25.30.28']
 
 
 def do_clean(number=0):
